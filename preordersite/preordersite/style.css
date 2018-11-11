@@ -1,0 +1,348 @@
+/* noget generelt eller ukategoriset css.*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.profilebox{
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: black;
+    position: relative;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.main-container {
+    padding-top:30px;
+    padding-bottom:100px;
+}
+
+.main-container h2{
+    font-family:arial;
+    font-size: 50px;
+    color:white;
+    line-height:50px;
+    text-align: center;
+} 
+
+/*comment section */
+#notlogcom {
+    width: 200px; 
+    padding-top: 1px; 
+    padding-bottom: 25px;
+    height: 30px; 
+    background-color: #282828;  
+    border:none; color:#fff; 
+    font-family:arial; 
+    font-weight:400px;
+}
+
+textarea{
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+
+.combutton {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border:none;
+    color:#fff;
+    font-family:arial;
+    font-weight:400px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.comment-box {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: black;
+    position: relative;
+}
+
+.comment-box p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.edit-form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.edit-form button {
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    border:none;
+    opacity: 0.8;
+}
+
+.edit-form button:hover {
+    opacity: 1;
+}
+
+.delete-form {
+    position: absolute;
+    top: 0px;
+    right: 41px;
+}
+
+.delete-form button {
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    border:none;
+    opacity: 0.8;
+}
+
+.delete-form button:hover {
+    opacity: 1;
+}
+/*comment section */
+
+/* news */
+.news-box {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: black;
+    position: relative;
+}
+
+.news-box p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+/* news */
+
+/*register.php*/
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input{
+    width: 90%;
+    height:40px;
+    padding: 0px 5%;
+    border: none;
+    background-color: #fff;
+    font-family:arial;
+    font-size: 16px;
+    color:#111;
+    line-height:30px;
+    margin-bottom: 4px;
+}
+
+.signup-form button{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height:40px;
+    border: none;
+    background-color: #222;
+    font-family:arial;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+}
+/*register.php*/
+
+/* header og footer elementer */
+
+.footer-a {
+    text-decoration: underline;
+    font-family:arial;
+    font-size: 12px;
+    color:white;
+    line-height:30px;
+}
+
+.main-wrapper {
+    margin:0 auto;
+    width:1000px;
+}
+
+.active {
+    color: #737373;
+}
+
+body{
+    background-color: #ccc;
+    color: #ddd;
+    margin: 0;
+    width: 100vw;
+} 
+
+a {
+    text-decoration: none;
+}
+
+header .nav-login {
+    float:right;
+}
+
+header .nav-login form {
+    float:left;
+    padding-top:15px;
+}
+
+header .nav-login form input {
+    float:left;
+    width:140px;
+    height:30px;
+    padding: 0px 10px;
+    margin-right:10px;
+    border: none;
+    background-color: #ccc;
+    font-family:arial;
+    font-size: 14px;
+    color:#111;
+    line-height:30px;
+}
+
+header .nav-login form button {
+    float:left;
+    width:60px;
+    height:30px;
+    margin-right:10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family:arial;
+    font-size: 14px;
+    color:#111;
+    cursor:pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc;
+}
+header .nav-login a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-family:arial;
+    font-size: 16px;
+    color:#111;
+    line-height:63px;
+    cursor:pointer;
+    }
+
+header nav{
+    width:100%;
+    height: 60px;
+    background-color: #262626;
+}
+header nav ul {
+    float:left;
+}
+
+header nav ul li{
+    float:left;
+    list-style:none;
+    width:80px;
+}
+
+header nav ul li a{
+    font-family:arial;
+    font-size: 16px;
+    color:white;
+    line-height:30px;
+}
+
+footer{
+    font-size:13px;
+    padding: 1em;
+    color: white;
+    background-color: #262626;
+    clear: left;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 98.3vw;
+    overflow: hidden;
+    margin-top: 40px; 
+}
+/* header og footer elementer */
+
+/* FAQ */
+.divFAQ {
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    width:50%;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #262626;
+    border-color: #787878;
+    color: white;
+    padding: 30px;
+    margin-bottom: 1px;
+    font-family: arial;
+}
+/* FAQ */
+
+
+/*  shop */
+.tableshop {
+    background-color: #282828;
+
+}
+#preorderbtn {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border:none;
+    color:black;
+    font-family:arial;
+    font-weight:400px;
+    cursor: pointer;
+    margin-bottom: 85px;
+    float:right;
+    margin-top: 10px;
+}
+/*  shop */

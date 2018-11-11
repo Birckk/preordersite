@@ -1,0 +1,2 @@
+database name is 'eksamensite' no quotes ofc
+use the file eksamensite and copy it into phpmyadmin 
